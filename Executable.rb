@@ -25,7 +25,7 @@ class Executable
 	def deploy( destination_path )
 	  unless File.symlink? @path
 	    executable_name = File.basename File.expand_path( @path )
-	    new_link = destination_path + '/' + executable_name
+	    new_link = destination_path + executable_name
 	    File.symlink( File.expand_path( @path ), new_link )
     end
     return self
@@ -37,4 +37,12 @@ class Executable
     end
     return self
   end  
+	
+	def find_base_file
+		if File.symlink? @path
+			return File.readlink @path
+		else
+			return @path
+		end
+	end
 end

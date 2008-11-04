@@ -49,9 +49,9 @@ class Controller
 		selected_row_index = @deployedApplicationsTableView.selectedRow
 		deployed_executable = @deployedApplications[ selected_row_index ]
 		deployed_executable.un_deploy
-		#new_undeployed = File.readlink( File.expand_path deployed_executable.path )
+		base_path_for_link = deployed_executable.find_base_file
 		@deployedApplications.delete_at( selected_row_index )
-		#@availableApplications << Executable.new( new_undeployed )
+		@availableApplications << Executable.new( base_path_for_link )
 		reload_table_views
 	end
 	
