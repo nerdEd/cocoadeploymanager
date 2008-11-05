@@ -282,8 +282,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>2</integer>
-									<integer>1</integer>
+									<integer>15</integer>
+									<integer>14</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -305,7 +305,7 @@
 							<real>185</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>1 59 1440 819 0 0 1440 878 </string>
+						<string>-1 59 1440 819 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -335,28 +335,25 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>AFD407650EBFCF9E004C2D03</string>
+										<string>AF0860890EC21A4100F5BC4C</string>
 										<key>history</key>
 										<array>
-											<string>AF48CB270EBE6682004A1ABB</string>
-											<string>AFD407490EBFCF22004C2D03</string>
-											<string>AFD407620EBFCF9E004C2D03</string>
-											<string>AFD407630EBFCF9E004C2D03</string>
+											<string>AFD891F70EC0C3BB003B5EA5</string>
+											<string>AFE8ED600EC0C4DC007261D1</string>
+											<string>AF0860800EC2158500F5BC4C</string>
+											<string>AF0860810EC2158500F5BC4C</string>
 										</array>
 										<key>prevStack</key>
 										<array>
-											<string>AF18CB9E0EB8DBF000C2004C</string>
-											<string>AF68FB520EBAA68B0069F841</string>
-											<string>AF48CB2D0EBE6682004A1ABB</string>
-											<string>AF48CB300EBE6682004A1ABB</string>
-											<string>AFD4074C0EBFCF22004C2D03</string>
-											<string>AFD4074D0EBFCF22004C2D03</string>
-											<string>AFD4074E0EBFCF22004C2D03</string>
-											<string>AFD4074F0EBFCF22004C2D03</string>
-											<string>AFD407500EBFCF22004C2D03</string>
-											<string>AFD407510EBFCF22004C2D03</string>
-											<string>AFD407520EBFCF22004C2D03</string>
-											<string>AFD407640EBFCF9E004C2D03</string>
+											<string>AFD891F90EC0C3BB003B5EA5</string>
+											<string>AFD891FA0EC0C3BB003B5EA5</string>
+											<string>AF08606F0EC211F600F5BC4C</string>
+											<string>AF0860700EC211F600F5BC4C</string>
+											<string>AF0860710EC211F600F5BC4C</string>
+											<string>AF0860790EC214F900F5BC4C</string>
+											<string>AF08607A0EC214F900F5BC4C</string>
+											<string>AF08607B0EC214F900F5BC4C</string>
+											<string>AF0860820EC2158500F5BC4C</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -372,7 +369,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1233, 773}}</string>
 								<key>RubberWindowFrame</key>
-								<string>1 59 1440 819 0 0 1440 878 </string>
+								<string>-1 59 1440 819 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -397,7 +394,7 @@
 										<key>Frame</key>
 										<string>{{10, 27}, {1233, -27}}</string>
 										<key>RubberWindowFrame</key>
-										<string>1 59 1440 819 0 0 1440 878 </string>
+										<string>-1 59 1440 819 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -481,11 +478,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>AFD407570EBFCF41004C2D03</string>
+				<string>AF08605B0EC20BE500F5BC4C</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>AFD407580EBFCF41004C2D03</string>
+				<string>AF08605C0EC20BE500F5BC4C</string>
 				<string>AF18CB7D0EB8D1D200C2004C</string>
-				<string>AFD407590EBFCF41004C2D03</string>
+				<string>AF08605D0EC20BE500F5BC4C</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -630,13 +627,13 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>AFD4075A0EBFCF41004C2D03</string>
+				<string>AF08605F0EC20C1000F5BC4C</string>
 				<string>1CCC7628064C1048000F2A68</string>
 				<string>1CCC7629064C1048000F2A68</string>
-				<string>AFD4075B0EBFCF41004C2D03</string>
-				<string>AFD4075C0EBFCF41004C2D03</string>
-				<string>AFD4075D0EBFCF41004C2D03</string>
-				<string>AFD4075E0EBFCF41004C2D03</string>
+				<string>AF0860600EC20C1000F5BC4C</string>
+				<string>AF0860610EC20C1000F5BC4C</string>
+				<string>AF0860620EC20C1000F5BC4C</string>
+				<string>AF0860630EC20C1000F5BC4C</string>
 				<string>AF18CB7D0EB8D1D200C2004C</string>
 			</array>
 			<key>ToolbarConfiguration</key>
@@ -667,10 +664,10 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>/Users/edwards/Development/Deploy Manager/Deploy Manager.xcodeproj</string>
+		<string>/Users/edwards/Development/cocoadeploymanager/Deploy Manager.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>1 59 1440 819 0 0 1440 878 </string>
+	<string>-1 59 1440 819 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

@@ -24,11 +24,12 @@ class Executable
 	
 	def deploy( destination_path )
 	  unless File.symlink? @path
-	    executable_name = File.basename File.expand_path( @path )
-	    new_link = destination_path + executable_name
+	    executable_name = File.basename( File.expand_path( @path ), '.war' )
+			extension = File.extname( File.expand_path( @path ) )
+	    new_link = destination_path + executable_name + extension
 	    File.symlink( File.expand_path( @path ), new_link )
     end
-    return self
+		return Executable.new( new_link )
   end
   
   def un_deploy

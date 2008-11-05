@@ -38,9 +38,8 @@ class Controller
 		if @deployedApplications.empty? 
 			selected_row_index = @availableApplicationsTableView.selectedRow
 			undeployed_executable = @availableApplications[ selected_row_index ]
-			undeployed_executable.deploy @deployDirectoryTextField.stringValue
-			@availableApplications.delete_at( selected_row_index )
-			@deployedApplications << undeployed_executable
+			@deployedApplications << undeployed_executable.deploy( @deployDirectoryTextField.stringValue )
+			# @availableApplications.delete_at( selected_row_index )
 			reload_table_views
 		end
 	end
@@ -49,9 +48,9 @@ class Controller
 		selected_row_index = @deployedApplicationsTableView.selectedRow
 		deployed_executable = @deployedApplications[ selected_row_index ]
 		deployed_executable.un_deploy
-		base_path_for_link = deployed_executable.find_base_file
+		# base_path_for_link = deployed_executable.find_base_file
 		@deployedApplications.delete_at( selected_row_index )
-		@availableApplications << Executable.new( base_path_for_link )
+		# @availableApplications << Executable.new( base_path_for_link )
 		reload_table_views
 	end
 	
