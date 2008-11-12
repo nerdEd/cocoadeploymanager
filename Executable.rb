@@ -15,29 +15,29 @@ class Executable
 	
 	def name 
 		if File.symlink? @path
-			base_path = File.readlink @path
-			base_path.split( "/" ).reverse[3]
+			pertinent_path = File.readlink @path
 		else
-			@path.split( "/" ).reverse[3]
+			pertinent_path = @path
 		end
+		pertinent_path.scan( /ASJVN-.../ )
 	end
 	
 	def deploy( destination_path )
-	  unless File.symlink? @path
-	    executable_name = File.basename( File.expand_path( @path ), '.war' )
+		unless File.symlink? @path
+			executable_name = File.basename( File.expand_path( @path ), '.war' )
 			extension = File.extname( File.expand_path( @path ) )
-	    new_link = destination_path + executable_name + extension
-	    File.symlink( File.expand_path( @path ), new_link )
-    end
+			new_link = destination_path + executable_name + extension
+			File.symlink( File.expand_path( @path ), new_link )
+		end
 		return Executable.new( new_link )
-  end
+	end
   
-  def un_deploy
-    if File.symlink? @path
-      File.unlink( File.expand_path @path )
-    end
-    return self
-  end  
+	def un_deploy
+		if File.symlink? @path
+			File.unlink( File.expand_path @path )
+		end
+		return self
+	end  
 	
 	def find_base_file
 		if File.symlink? @path

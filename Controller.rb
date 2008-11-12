@@ -20,8 +20,8 @@ class Controller
 		@availableApplicationsTableView.dataSource = self
 		@deployedApplicationsTableView.dataSource = self		
 		
-		@searchBaseTextField.stringValue = '/Users/edwards/Development/workspaces/V9/JIRAS/'
-		@deployDirectoryTextField.stringValue = '/Users/edwards/Applications/jboss-4.2.2.GA/server/default/deploy/'		
+		@searchBaseTextField.stringValue = '/Users/Jonas714/Development/workspaces'
+		@deployDirectoryTextField.stringValue = '/Applications/jboss-4.2.2.GA/server/default/deploy'		
 	end
 	
 	def refreshApplications( sender )		
